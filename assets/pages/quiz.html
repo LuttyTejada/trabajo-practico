@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/forms.css">
+    <script src="https://kit.fontawesome.com/74d08eb395.js" crossorigin="anonymous"></script>
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../img/logo.png" alt="logo" width="320"></a>
+        <nav>
+            <ul class="horizontal">
+                <li><a href="./our.html">Nosotros</a></li>
+                <li>
+                    <a href="#">Productos</a>
+                    <ul class="vertical">
+                        <li><a href="./vinos.html">Vinos</a></li>
+                        <li><a href="./cervezas.html">Cervezas</a></li>
+                        <li><a href="./licores.html">Licores</a></li>
+                        <li><a href="./blends.html">Blends</a></li>
+                    </ul>
+                </li>
+                <li><a href="./quiz.html">Encuestas</a></li>
+                <li><a href="./signin.html">Registrarse</a></li>
+                <li><a href="./login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>ENCUESTAS</h1>
+            <p>¿Qué tal te parecen nuestros productos?</p>
+            <form action="registro1.html">
+                <div class="texto">
+                    <input type="text" name="name" id="name" placeholder="NOMBRE">
+                </div>
+                <div class="texto">
+                    <input type="email" name="mail" id="mail" placeholder="CORREO">
+                </div>
+                <div>
+                    <select name="lugar" id="lugar">
+                        <option value="00">REGIÓN</option>
+                        <option value="01">La Rioja</option>
+                        <option value="02">Catamarca</option>
+                        <option value="03">Mendoza</option>
+                        <option value="04">Cordoba</option>
+                        <option value="05">Buenos Aires</option>
+                    </select>
+                </div>
+                <div class="selector">
+                    <p>Producto probado</p>
+                    <input type="checkbox" name="vino" id="vino"><label for="vino">VINO</label for="">
+                    <input type="checkbox" name="cerveza" id="cerveza"><label for="cerveza">CERVEZA</label >
+                    <input type="checkbox" name="licor" id="licor"><label for="licor">LICOR</label >
+                    <input type="checkbox" name="blend" id="blend"><label for="blend">BLEND</label >
+                </div>
+                <div class="selector">
+                    <p>¿Fue de si agrado?</p>
+                    <input type="radio" name="agrado" id="afirmacion"><label for="afirmacion">SI</label>
+                    <input type="radio" name="agrado" id="negacion"><label for="negacion">NO</label >
+                </div>
+                <div>
+                    <textarea name="comentario" id="comentario" placeholder="Comente sobre su experiancia con el producto"></textarea>
+                </div>
+                <div><input type="submit" value="Enviar"></div>
+            </form>
+        </section>
+        <aside>
+            <div>
+                <a href="https://www.coca-cola.com/ar/es" target="_blank"><img src="../img/publicidad2.jpeg" alt="CocaCola Publicidad"></a>
+            </div>
+            <div>
+                <a href="https://iansa.mx/productos/fosfonitrato/" target="_blank"><img src="../img/publicidad3.jpeg" alt="Fertilizante Publicidad"></a>
+            </div>
+        </aside>
+        <section>
+            <p>¿Qué tal te parece nuestro servicio?</p>
+            <form action="registro2.html">
+                <div class="texto">
+                    <input type="text" name="name" id="name" placeholder="NOMBRE">
+                </div>
+                <div class="texto">
+                    <input type="email" name="mail" id="mail" placeholder="CORREO">
+                </div>
+                <div>
+                    <select name="lugar" id="lugar">
+                        <option value="00">REGIÓN</option>
+                        <option value="01">La Rioja</option>
+                        <option value="02">Catamarca</option>
+                        <option value="03">Mendoza</option>
+                        <option value="04">Cordoba</option>
+                        <option value="05">Buenos Aires</option>
+                    </select>
+                </div>
+                <div class="selector">
+                    <p>Trato del personal</p>
+                    <input type="radio" name="trato" id="exelente"><label for="exelente">EXELENTE</label>
+                    <input type="radio" name="trato" id="aceptable"><label for="aceptable">ACEPTABLE</label>
+                    <input type="radio" name="trato" id="malo"><label for="malo">MALO</label>
+                </div>
+                <div class="selector">
+                    <p>Funcionalidad de la web</p>
+                    <input type="radio" name="web" id="exelente"><label for="exelente">EXELENTE</label>
+                    <input type="radio" name="web" id="aceptable"><label for="aceptable">ACEPTABLE</label>
+                    <input type="radio" name="web" id="malo"><label for="malo">MALO</label>
+                </div>
+                <div>
+                    <textarea name="comentario" id="comentario" placeholder="Comente sobre su experiancia"></textarea>
+                </div>
+                <div><input type="submit" value="Enviar"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://maps.app.goo.gl/HCkRikw79rSpcB5r8" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <p>CopyRight &copy; Lutty000</p>
+    </footer>
+</body>
+</html>

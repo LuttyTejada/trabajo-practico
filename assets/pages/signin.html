@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/forms.css">
+    <script src="https://kit.fontawesome.com/74d08eb395.js" crossorigin="anonymous"></script>
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../img/logo.png" alt="logo" width="320"></a>
+        <nav>
+            <ul class="horizontal">
+                <li><a href="./our.html">Nosotros</a></li>
+                <li>
+                    <a href="#">Productos</a>
+                    <ul class="vertical">
+                        <li><a href="./vinos.html">Vinos</a></li>
+                        <li><a href="./cervezas.html">Cervezas</a></li>
+                        <li><a href="./licores.html">Licores</a></li>
+                        <li><a href="./blends.html">Blends</a></li>
+                    </ul>
+                </li>
+                <li><a href="./quiz.html">Encuestas</a></li>
+                <li><a href="./signin.html">Registrarse</a></li>
+                <li><a href="./login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>REGISTRARSE</h1>
+            <p>Descubri mas beneficios!</p>
+            <form action="registrarse.html">
+                <div class="texto">
+                    <input type="text" name="name" id="name" placeholder="NOMBRE">
+                </div>
+                <div class="texto">
+                    <input type="email" name="mail" id="mail" placeholder="CORREO">
+                </div>
+                <div class="texto">
+                    <input type="text" name="user" id="user" placeholder="NOMBRE DE USUARIO">
+                </div>
+                <div class="texto">
+                    <input type="password" name="password" id="password" placeholder="CONTRASEÑA">
+                </div>
+                <div class="selector">
+                    <input type="radio" name="genero" id="femenino"><label for="femenino">FEMENINO</label>
+                    <input type="radio" name="genero" id="masculino"><label for="masculino">MASCULINO</label>
+                    <input type="radio" name="genero" id="otro"><label for="otro">OTRO</label>
+                </div>
+                <div>
+                    <select name="lugar" id="lugar">
+                        <option value="00">REGIÓN</option>
+                        <option value="01">La Rioja</option>
+                        <option value="02">Catamarca</option>
+                        <option value="03">Mendoza</option>
+                        <option value="04">Cordoba</option>
+                        <option value="05">Buenos Aires</option>
+                    </select>
+                </div>
+                <div class="selector terminos">
+                    <input type="checkbox" name="teminos" id="terminos"><label for="terminos">ACEPTAR TERMINOS Y CONDICIONES</label>
+                </div>
+                <div><input type="submit" value="Enviar"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://maps.app.goo.gl/HCkRikw79rSpcB5r8" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <p>CopyRight &copy; Lutty000</p>
+    </footer>
+</body>
+</html>

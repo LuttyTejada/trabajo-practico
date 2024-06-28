@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/* Encabezado */
+header{
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #8fc3ae;
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal li{padding: 50px 15px;list-style: none;display: inline-block;}
+.horizontal a{
+    padding: 13px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Karla';
+    font-size: 1em;
+    color: #000;
+    background-color: #b1772a;
+}
+.vertical{position: absolute;display: none;}
+.horizontal li:hover .vertical{display: block;}
+.vertical li a{border: 0; color: #fff;}
+
+/* Pie de pagina */
+footer{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Karla';
+    background-color: #8fc3ae;
+}
+footer a{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 2em;
+    color: black;
+    background-color: #b1772a;
+}
+footer p{padding-top: 20px; font-size: 1.4em;}
+
+
+/*  ------------ CUERPO ------------ */
+main{margin: auto; font-family: 'karla'; display: flex; flex-wrap: wrap;}
+section{width: 67%; margin: 10px;}
+
+/* Procuctos Destacados*/
+div {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: #5f0014;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div h2{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+div article {
+    width: 25%;
+    height: 75%;
+    border-radius: 25px;
+    background-color: #835210;
+}
+div img{width: 100%; border-top-right-radius: 25px; border-top-left-radius: 25px;}
+div p {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Staff  */
+.staff article{width: 40%; background-color: #cdf3e4;}
+.staff p{color: #000;}
+#persona1{
+    width: 100%;
+    height: 74%;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    background-image: url(../img/persona1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#persona2{
+    width: 100%;
+    height: 74%;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    background-image: url(../img/persona2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+aside{width: 27%;}
+aside div{
+    width: 100%;
+    height: 260px;
+    margin: 15px;
+    padding: 0 25px;
+    border-radius: 25px;
+    color: rgb(206, 206, 206);
+    background-color: #8b0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+aside h4{text-align: center;color: #fff;}
+aside a{text-decoration: none;color: #fff;}
+aside img{width: 80%;margin: 0 10%;border-radius: 0;}
+
+
+/*  -------------------------------- PAGINA NOSOTROS ------------------------------------------ */
+.negocio{
+    width: 60%;
+    padding: 40px;
+}
